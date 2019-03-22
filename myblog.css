@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700|Lato');
+ 
+:root {
+    --serif-font: "Bitter", serif;
+    --sans-font: "Lato", sans-serif;
+    --base-font-size: 1rem;
+}
+
+body{
+	background-image: url(http://harunalrosyid.site/blog/images/background.jpg);
+	background-size: 100%;
+	font-size: var(--base-font-size);
+    font-family: var(--sans-font);
+    color: var(--color-text);
+    overflow-x: hidden;
+}
+
+.jumbotron{
+	background-image: url(http://harunalrosyid.site/blog/images/banner-main.jpg);
+	margin-bottom: 0;
+	border-radius: 0;
+}
+	
+
+h2{
+	font-family: var(--serif-font);
+    font-size: calc(var(--base-font-size)*1.5);
+    font-weight: 600;
+}
+
+h4{
+	font-family: var(--serif-font);
+	font-weight: 600;
+}
+
+h5{
+	background: rgba(0,0,0,0.7);
+	font-family: var(--serif-font);
+	font-weight: 600;
+	padding: 0.5rem;
+}
+
+span.title , .read{
+	font-family: var(--serif-font);
+	padding: 0.1rem;
+	font-weight: 600;
+}
+
+span.first-line{
+	font-family: var(--sans-font);
+	padding: 0.1rem;
+	font-weight: 400;
+}
+
+#carouselExampleIndicators {
+    margin: 2rem;
+}
+
+.btn-slide{
+	width: 2rem;
+	height: 2rem;
+	border-radius:  100%;
+	background: #fc1313;
+	padding: 0.35rem;
+}
+
+.bolded{
+	font-family: var(--serif-font);
+	font-weight: 700;
+	color: black;
+}
+
+.under-line{
+	border-bottom: 0.1rem solid rgba(0, 0, 0, 1);
+	border-bottom-width:  50%;
+}
+.embed{
+	margin: 0 auto
+}
+.full-width{
+	width:100%;
+}
+.width-70{
+	width: 70%;
+}
+.width-90{
+	width:90%;
+}
+
+.width-80{
+	width:80%;
+}
+
+.half-width{
+	width:50%;
+}
+
+.half-height{
+	height: 50%;
+}
+
+.content {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 1rem;
+}
+
+.navbar-blog{
+	background: rgba(255,255,255,255);
+	/* position: fixed; */
+	z-index:2;
+	color: black;
+
+}
+
+.link{
+	color: white;
+}
+
+.nav-blog-link {
+    padding: 0 0.5rem;
+    color: black;    
+}
+.nav-blog-link link a.active {
+	padding: 0 0.5rem;
+	background: #fc1313;
+    color: black;    
+}
+a.link {
+    text-decoration: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #fc1313;
+}
+a:hover{
+    color: #fc1313;
+     text-decoration: none;
+}
+
+.logoku{
+	width: 10%;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+
+.sticky +.posted{
+	padding-top: 4rem;
+	color: black;
+}
+.subcribe{
+	margin:1rem;
+}
+.btn-red {
+    color: #fff;
+    background-color: #fc1313;
+    border-color: #fc1313;
+}
+.btn-red:hover{
+    color: #fff;
+    background-color: #ff00008e;
+    border-color: #ff00008e;
+}
+a.icons {
+    color: white;
+    font-size: calc(var(--base-font-size)*1.5);
+    padding: 0 1rem;
+}
+
+a.icons :hover{
+    color: #fc1313;
+}
+
+.btn-danger {
+    border-radius: 0.5rem;
+}
+
+input[type="text"] {
+    border-radius: 0.5rem;
+}
+
+.side{
+	padding: 1rem ;
+}
+
+.article{
+	padding: 1rem 1rem 0;
+	
+}
+
+.article p{
+	text-align: justify;
+}
+
+.frame {
+    padding: 1rem;
+    border: 0.25rem solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+}
+
+.frame-c {
+    padding: 1rem;
+    border: 0.25rem solid rgba(0,0,0,.125);
+    border-radius: 100%;
+}
+
+.date {
+    float:right;
+}
+
+.daftar , .daftar-footer{
+	margin:1rem;
+}
+
+.daftar li a{
+	text-decoration: none;
+	color: black;
+}
+.daftar-footer li a{
+	text-decoration: none;
+	color: white;
+}
+
+.daftar-footer li a:hover{
+	background: #fc1313;
+	padding: 0.25rem;
+	border-radius: 0.5rem;
+}
+.daftar li a:hover{
+	color: #fc1313;
+}
+
+footer{	
+	padding: 1.5rem 0;
+	margin-top: 1rem;
+	background: rgba(0,0,0,0.8);
+	color:white;
+}
+
+.footer-link{
+    padding: 0 0.5rem;
+    
+}
+
+
+@media(max-width: 768px){
+	.logoku{
+		width: 20%;
+	}
+
+	.posted{
+		width:90%;
+		margin: 0 auto;
+		padding-top: 1rem;
+		color: black;
+	}
+	.banner{
+		padding:1rem;
+	}
+	.video{
+	margin: 1rem 0;
+	color: black;
+	}
+
+	.navbar-blog li {
+		padding:0.5rem;
+	}
+	.footer{
+		padding:1rem;
+	}
+}
+
+
+@media(max-width: 991px){
+	.navbar-blog li {
+		padding:0.5rem;
+	}
+	.posted{
+		margin: 0 auto;
+		padding-top: 1rem;
+		color: black;
+	}
+
+	
+}
+
+	
